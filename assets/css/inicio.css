@@ -29,6 +29,8 @@ body {
 .card {
   background-color: transparent;
   border: 1px solid #000;
+  width: 20rem;
+  margin: 10px;
 }
 
 /* Texto dentro de las tarjetas */

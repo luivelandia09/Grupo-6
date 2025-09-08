@@ -2,7 +2,7 @@
 
 body {
   background-color: #ffffff;
-  font-family: Arial, sans-serif; /* Asegura que la fuente sea Arial */
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -38,11 +38,11 @@ body {
 }
 
 .banner {
-  background-color: #05416e; /* Fondo azul del banner */
-  color: white; /* Color del texto */
-  padding: 20px; /* Espaciado */
-  box-shadow: 0 12px 10px rgba(0, 0, 0, 0.2); /* Sombra */
-  width: 100%; /* Ocupa todo el ancho */
+  background-color: #05416e;
+  color: white;
+  padding: 20px;
+  box-shadow: 0 12px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
   text-align: center;
 }
 
@@ -58,11 +58,11 @@ h2 {
   font-family: Arial, sans-serif;
   margin: 60px 0 45px;
   border-radius: 1000px;
-  background-color: #0e3b5c; /* Un azul marino profesional */
-  color: white; /* Letras blancas para un alto contraste */
+  background-color: #0e3b5c;
+  color: white;
   padding: 10px 20px;
-  width: fit-content; /* El ancho se ajusta al contenido */
-  margin: 60px auto 45px; /* Centrar el título */
+  width: fit-content;
+  margin: 60px auto 45px;
   transition: background-color 0.3s ease-in-out;
 }
 h2:hover {
@@ -116,7 +116,7 @@ h2:hover {
   flex-direction: column;
 }
 .navbar-brand img {
-  height: 120px; /* O el tamaño que prefieras */
+  height: 120px;
   width: auto;
 }
 
