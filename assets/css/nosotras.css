@@ -58,7 +58,7 @@ h2 {
   font-family: Arial, sans-serif;
   margin: 60px 0 45px;
   border-radius: 1000px;
-  background-color: #0e3b5c;
+  background-color: #146096;
   color: white;
   padding: 10px 20px;
   width: fit-content;
@@ -166,7 +166,7 @@ h2:hover {
 }
 
 .form-experiencia button:hover {
-  background-color: #6055ff;
+  background-color: #1955fa;
 }
 .experiencia-p {
   text-align: center;
