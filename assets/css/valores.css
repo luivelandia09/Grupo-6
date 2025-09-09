@@ -1,6 +1,6 @@
 /* ==== ESTILOS GENERALES ==== */
-body { 
-    font-family:  Arial, sans-serif; 
+body {
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif; /* Cambié por una fuente moderna */
     color: #495057; 
     background-color: #f8f9fa;
     line-height: 1.6; 
