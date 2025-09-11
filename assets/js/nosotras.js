@@ -45,3 +45,4 @@ document.querySelector(".experiencia").addEventListener("submit", function (e) {
     document.querySelector(".experiencia").appendChild(mensaje);
   }
 });
+console.log("adios");
