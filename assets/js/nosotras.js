@@ -1,8 +1,6 @@
 console.log("Hola");
-
-// Capturamos el formulario
 document.querySelector(".experiencia").addEventListener("submit", function (e) {
-  e.preventDefault(); // Evita que recargue la página
+  e.preventDefault();
 
   // Guardamos todos los campos en un array
   const campos = [
@@ -14,53 +12,54 @@ document.querySelector(".experiencia").addEventListener("submit", function (e) {
   let vacios = false; // Bandera para saber si falta algo
 
   // Recorremos cada campo con un bucle
+
   for (let i = 0; i < campos.length; i++) {
     if (!campos[i] || campos[i].value.trim() === "") {
       alert("Por favor llenar este campo:" + campos[i].id);
+      campos[i].style.border = "2px solid red";
       vacios = true;
       break; // rompe el bucle apenas encuentra uno vacío
+    } else {
+      campos[i].style.border = "2px solid green";
     }
   }
+  /*  for (let i = 0; i < campos.length; i++) {
+  if (!campos[i] || campos[i].value.trim() === "") {
+    campos[i].style.border = "2px solid red";
+    vacios = true;
+  } 
+} */
 
-  // IF / ELSE para decidir qué hacer
   if (vacios) {
-    // Si falta algo, no hace nada más
     return;
   } else {
-    // Si todos están llenos
     console.log("Experiencia enviada: ", campos[2].value);
 
-    // Resetear formulario
-    document.querySelector(".experiencia").reset();
+    //document.querySelector(".experiencia").reset();
 
-    // Crear símbolo de check + mensaje
+    const button = document.querySelector(".experiencia button");
+    button.textContent = "Enviando ....";
+    setTimeout(() => {
+      button.textContent = "Enviar";
+    }, 2000);
+
     const mensaje = document.createElement("p");
     mensaje.textContent = "✅ ¡Gracias por compartir tu experiencia!";
     mensaje.style.color = "green";
     mensaje.style.fontWeight = "bold";
     mensaje.style.textAlign = "center";
     mensaje.style.marginTop = "25px";
+    mensaje.style.opacity = 0;
+    mensaje.style.transition = "opcity 1s ease";
 
-    // Insertar en la sección
     document.querySelector(".experiencia").appendChild(mensaje);
+
+    setTimeout(() => {
+      mensaje.style.opacity = 1;
+    }, 50);
+    setTimeout(() => {
+      mensaje.style.opacity = 0;
+      setTimeout(() => mensaje.remove(), 1000);
+    }, 4000);
   }
 });
-for (let i = 0; i < campos.length; i++) {
-  if (!campos[i] || campos[i].value.trim() === "") {
-    campos[i].style.border = "2px solid red";
-    vacios = true;
-  } else {
-    campos[i].style.border = "2px solid green";
-  }
-}
-mensaje.style.opacity = 0;
-document.querySelector(".experiencia").appendChild(mensaje);
-setTimeout(() => {
-  mensaje.style.transition = "opacity 1s";
-  mensaje.style.transition = 1;
-}, 100);
-const button = document.querySelector(".experiencia button");
-button.textContent = "Enviando ....";
-setTimeout(() => {
-  button.textContent = "Enviar";
-}, 2000);
