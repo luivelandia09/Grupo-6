@@ -45,3 +45,11 @@ document.querySelector(".experiencia").addEventListener("submit", function (e) {
     document.querySelector(".experiencia").appendChild(mensaje);
   }
 });
+for (let i = 0; i < campos.length; i++) {
+  if (!campos[i] || campos[i].value.trim() === "") {
+    campos[i].style.border = "2px solid red";
+    vacios = true;
+  } else {
+    campos[i].style.border = "2px solid green";
+  }
+}
