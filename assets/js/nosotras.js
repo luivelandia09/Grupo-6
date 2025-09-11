@@ -45,5 +45,22 @@ document.querySelector(".experiencia").addEventListener("submit", function (e) {
     document.querySelector(".experiencia").appendChild(mensaje);
   }
 });
-console.log("adios");
-//Cambios adicionales
+for (let i = 0; i < campos.length; i++) {
+  if (!campos[i] || campos[i].value.trim() === "") {
+    campos[i].style.border = "2px solid red";
+    vacios = true;
+  } else {
+    campos[i].style.border = "2px solid green";
+  }
+}
+mensaje.style.opacity = 0;
+document.querySelector(".experiencia").appendChild(mensaje);
+setTimeout(() => {
+  mensaje.style.transition = "opacity 1s";
+  mensaje.style.transition = 1;
+}, 100);
+const button = document.querySelector(".experiencia button");
+button.textContent = "Enviando ....";
+setTimeout(() => {
+  button.textContent = "Enviar";
+}, 2000);
