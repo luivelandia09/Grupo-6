@@ -53,3 +53,14 @@ for (let i = 0; i < campos.length; i++) {
     campos[i].style.border = "2px solid green";
   }
 }
+mensaje.style.opacity = 0;
+document.querySelector(".experiencia").appendChild(mensaje);
+setTimeout(() => {
+  mensaje.style.transition = "opacity 1s";
+  mensaje.style.transition = 1;
+}, 100);
+const button = document.querySelector(".experiencia button");
+button.textContent = "Enviando ....";
+setTimeout(() => {
+  button.textContent = "Enviar";
+}, 2000);
