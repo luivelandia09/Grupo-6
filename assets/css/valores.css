@@ -1,6 +1,7 @@
 /* ==== ESTILOS GENERALES ==== */
 body {
-  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif; /* Cambié por una fuente moderna */
+
+  font-family: 'Montserrat', sans-serif;
     color: #495057; 
     background-color: #f8f9fa;
     line-height: 1.6; 
@@ -26,6 +27,27 @@ body {
 header {
   margin-bottom: 20px; 
 }
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+  button {
+  background: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #00f2fe 0%, #4facfe 100%);
+}
+  
+
+
 
 /* Revisa y ajusta los estilos de tu h1 */
 .valores-section h1 { 
@@ -119,6 +141,8 @@ header {
 .custom-header {
   background-color: #004aad; 
 }
+
+
   /* ==== MEDIA QUERIES PARA RESPONSIVIDAD ==== */
 
 /* Pantallas grandes (desktops) */
@@ -152,3 +176,23 @@ header {
  .custom-footer p,
  .custom-footer small { font-size: 0.8rem; }
 }
+
+ .pilar-card {
+  background-color: #e9f5ff;
+  border-radius: 12px;
+  max-width: 900px; /* Aumenta el ancho */
+  margin: auto;
+  padding: 2rem 3rem; /* Más espacio interior */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* Un toque de sombra */
+}
+
+    .icono {
+      color: #007bff;
+    }
+    .destacado {
+      font-weight: bold;
+      font-style: italic;
+    }
+    .carousel-indicators [data-bs-target] {
+      background-color: #007bff;
+    }
