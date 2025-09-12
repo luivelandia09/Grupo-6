@@ -71,14 +71,14 @@ h2 {
   100% {
     transform: scale(1);
   }
-  25% {
-    transform: scale(1.1);
-  }
-  50% {
-    transform: scale(0.95);
-  }
-  75% {
+  30% {
     transform: scale(1.05);
+  }
+  60% {
+    transform: scale(0.98);
+  }
+  80% {
+    transform: scale(1.03);
   }
 }
 h2:hover {
