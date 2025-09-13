@@ -1,7 +1,10 @@
-#  Farmaven
-**Farmaven** es un proyecto web de una farmacia digital accesible y moderna, creado para mostrar medicamentos de uso común con un diseño amigable y responsivo.  
+# 🏥 Farmaven  
 
-## 🎯 Objetivo
-El objetivo del proyecto es aplicar conceptos de diseño web, usabilidad y accesibilidad, creando una plataforma clara y funcional que acerque los productos de salud a las personas de manera sencilla.  
+**Farmaven** es un proyecto web diseñado para mostrar productos farmacéuticos de manera organizada, moderna y accesible.  
+Incluye una portada llamativa, un catálogo de medicamentos destacados, secciones de promociones y un diseño adaptable a cualquier dispositivo 📱💻.  
 
-                                                    ✨ *Farmaven: Tu salud, nuestra prioridad.*
+---
+
+## ![Objetivo](https://img.shields.io/badge/🎯_Objetivo-blue)  
+
+Ofrecer una página sencilla, clara y atractiva que brinde información confiable sobre productos de salud, ayudando a los usuarios a encontrar lo que necesitan de forma rápida y segura.  
