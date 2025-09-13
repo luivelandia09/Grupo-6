@@ -1,4 +1,4 @@
-console.log ("Hola");
+console.log("Hola");
 document.querySelector(".experiencia").addEventListener("submit", function (e) {
   e.preventDefault();
 
@@ -9,7 +9,6 @@ document.querySelector(".experiencia").addEventListener("submit", function (e) {
   ];
 
   let vacios = false;
-
 
   for (let i = 0; i < campos.length; i++) {
     if (!campos[i] || campos[i].value.trim() === "") {
@@ -33,23 +32,22 @@ document.querySelector(".experiencia").addEventListener("submit", function (e) {
     }, 2000);
   }
 
-    const mensaje = document.createElement("p");
-    mensaje.textContent = "✅ ¡Gracias por compartir tu experiencia!";
-    mensaje.style.color = "green";
-    mensaje.style.fontWeight = "bold";
-    mensaje.style.textAlign = "center";
-    mensaje.style.marginTop = "25px";
+  const mensaje = document.createElement("p");
+  mensaje.textContent = "✅ ¡Gracias por compartir tu experiencia!";
+  mensaje.style.color = "green";
+  mensaje.style.fontWeight = "bold";
+  mensaje.style.textAlign = "center";
+  mensaje.style.marginTop = "25px";
+  mensaje.style.opacity = 0;
+  mensaje.style.transition = "opcity 1s ease";
+
+  document.querySelector(".experiencia").appendChild(mensaje);
+
+  setTimeout(() => {
+    mensaje.style.opacity = 1;
+  }, 50);
+  setTimeout(() => {
     mensaje.style.opacity = 0;
-    mensaje.style.transition = "opcity 1s ease";
-
-    document.querySelector(".experiencia").appendChild(mensaje);
-
-    setTimeout(() => {
-      mensaje.style.opacity = 1;
-    }, 50);
-    setTimeout(() => {
-      mensaje.style.opacity = 0;
-      setTimeout(() => mensaje.remove(), 1000);
-    }, 4000);
-  }
+    setTimeout(() => mensaje.remove(), 1000);
+  }, 4000);
 });
