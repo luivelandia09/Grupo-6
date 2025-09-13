@@ -26,6 +26,24 @@ body {
 header {
   margin-bottom: 20px;
 }
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+button {
+  background: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #00f2fe 0%, #4facfe 100%);
+}
 
 /* Revisa y ajusta los estilos de tu h1 */
 .valores-section h1 {
