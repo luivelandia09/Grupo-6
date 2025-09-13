@@ -1,4 +1,4 @@
-# 🌿 Farmaven
+#  Farmaven
 **Farmaven** es un proyecto web de una farmacia digital accesible y moderna, creado para mostrar medicamentos de uso común con un diseño amigable y responsivo.  
 
 ## 🎯 Objetivo
