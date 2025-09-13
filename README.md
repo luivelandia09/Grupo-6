@@ -4,4 +4,4 @@
 ## 🎯 Objetivo
 El objetivo del proyecto es aplicar conceptos de diseño web, usabilidad y accesibilidad, creando una plataforma clara y funcional que acerque los productos de salud a las personas de manera sencilla.  
 
-✨ *Farmaven: Tu salud, nuestra prioridad.*
+                                                    ✨ *Farmaven: Tu salud, nuestra prioridad.*
