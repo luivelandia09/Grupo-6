@@ -11,7 +11,7 @@ Ofrecer una página sencilla, clara y atractiva que brinde información confiabl
 - *CSS3*  
 - *Bootstrap 5*  
 - *Font Awesome* (íconos)  
-## 👤 Autores:
+## 👤 Autoras:
 - Mikela Mora @mikelamoraa  
 - Luisana Velandia @luivelandia09  
 - Nayeli Mamani @nayelimamanicaqui-glitch  
