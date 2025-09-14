@@ -1,9 +1,21 @@
-# 🏥 FARMAVEN  
-**Farmaven** es un proyecto web diseñado para mostrar productos farmacéuticos de manera organizada, moderna y accesible.  
-Incluye una portada llamativa, un catálogo de medicamentos destacados, secciones de promociones y un diseño adaptable a cualquier dispositivo 📱💻.  
+# 🌿 Farmaven  
 
-<span style="color:blue">🎯 **Objetivo**</span>  
+                                                  *Tu salud, nuestra prioridad*  
 
-Ofrecer una página sencilla, clara y atractiva que brinde información confiable sobre productos de salud, ayudando a los usuarios a encontrar lo que necesitan de forma rápida y segura.  
+Farmaven es una página web enfocada en brindar información clara y accesible sobre productos farmacéuticos.  
+El objetivo principal es facilitar a los usuarios una experiencia amigable para conocer y acceder a los medicamentos que necesitan.  
 
-                                                    ✨ Tu salud, nuestra prioridad ✨
+## 🎯 Objetivo  
+Brindar a las personas una herramienta digital sencilla y confiable para informarse sobre medicamentos, con un diseño fácil de usar y accesible.  
+
+## 🛠️ Tecnologías utilizadas
+- *HTML5*  
+- *CSS3*  
+- *Bootstrap 5*  
+- *Font Awesome* (íconos)  
+
+## 👤 Autores:
+- Mikela Mora @mikelamoraa  
+- Luisiana Velandia @luivellandia09  
+- Nayeli Mamani @nayelimamanicaqui-glitch  
+
