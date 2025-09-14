@@ -1,8 +1,14 @@
-console.log("hola");
-document
-  .getElementById("contactForm")
-  .addEventListener("submit", function (event) {
-    event.preventDefault();
-    alert("✅ ¡Gracias por contactarte con Farmaven! Te responderemos pronto.");
-    this.reset(); // limpia los campos del formulario
-  });
+const form = document.getElementById("contactFormElement");
+
+form.addEventListener("submit", function (event) {
+  event.preventDefault();
+
+  // Mostrar el modal en lugar del alert
+  const thankYouModal = new bootstrap.Modal(
+    document.getElementById("thankYouModal")
+  );
+  thankYouModal.show();
+
+  // Limpiar formulario después de enviar
+  form.reset();
+});
