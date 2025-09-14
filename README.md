@@ -6,4 +6,4 @@ Incluye una portada llamativa, un catálogo de medicamentos destacados, seccione
 
 Ofrecer una página sencilla, clara y atractiva que brinde información confiable sobre productos de salud, ayudando a los usuarios a encontrar lo que necesitan de forma rápida y segura.  
 
-                                                    ✨ Tu salud, nuestra prioridad ✨
+                                                                 ✨ Tu salud, nuestra prioridad ✨
