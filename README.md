@@ -13,6 +13,6 @@ Ofrecer una página sencilla, clara y atractiva que brinde información confiabl
 - *Font Awesome* (íconos)  
 ## 👤 Autores:
 - Mikela Mora @mikelamoraa  
-- Luisiana Velandia @luivellandia09  
+- Luisana Velandia @luivelandia09  
 - Nayeli Mamani @nayelimamanicaqui-glitch  
 
