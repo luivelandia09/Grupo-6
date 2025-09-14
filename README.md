@@ -1,6 +1,6 @@
 # 🌿 Farmaven  
 
-                                                  *Tu salud, nuestra prioridad*  
+                                                  ✨ Tu salud, nuestra prioridad ✨
 
 Farmaven es una página web enfocada en brindar información clara y accesible sobre productos farmacéuticos.  
 El objetivo principal es facilitar a los usuarios una experiencia amigable para conocer y acceder a los medicamentos que necesitan.  
