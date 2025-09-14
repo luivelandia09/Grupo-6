@@ -58,14 +58,64 @@ button:hover {
   padding: 60px 0;
   background: linear-gradient(135deg, #e6f2ff, #ffffff);
 }
-
 .valores-section p.lead {
   font-size: 1.1rem;
   max-width: 800px;
   margin: 0 auto 30px;
   color: #6c757d; /* Color más suave para el párrafo */
 }
-
+/* Imagen alineada a la derecha */
+.valores-img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-left: auto; /* Para alinearla a la derecha */
+}
+/* ---------------------------------------------------- */
+/* --- Estilos de las tarjetas (pilar-card) --- */
+/* ---------------------------------------------------- */
+.pilar-card {
+  background-color: #e9f5ff;
+  border-radius: 12px;
+  max-width: 900px; /* Aumenta el ancho */
+  margin: auto;
+  padding: 2rem 3rem; /* Más espacio interior */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* Un toque de sombra */
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}  
+.pilar-card:hover {
+  border-color: #0056b3;
+}
+.pilar-card h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #0e3b5c;
+}
+.pilar-card p {
+  color: #0e3b5c;
+}
+.pilar-img {
+  max-width: 100%;
+  height: 180px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+.icono {
+  font-size: 3.5rem;
+  color: #0056b3;
+  transition: color 0.3s ease;
+}
+.pilar-card:hover .icono {
+  color: #007bff;
+}
+ .destacado {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  color: #0e3b5c;
+  margin-top: 15px;
+}
 .section-title {
   background-color: #0056b3; /* Azul oscuro para un look elegante */
   color: white; /* Letras blancas para un alto contraste */
@@ -76,53 +126,6 @@ button:hover {
   text-transform: uppercase;
   letter-spacing: 1.5px;
 }
-  
-/* ---------------------------------------------------- */
-/* --- Estilos de las tarjetas (pilar-card) --- */
-/* ---------------------------------------------------- */
-
-.pilar-card {
-  background-color: #ffffff;
-  border-radius: 16px;
-  max-width: 320px;
-  padding: 2.5rem 2rem;
-  border: 2px solid transparent;
-  box-shadow: 0 10px 25px rgba(0, 91, 179, 0.1);
-}
-.pilar-card:hover {
-  border-color: #0056b3;
-}
-
-.pilar-card .icono {
-  font-size: 3.5rem;
-  color: #0056b3;
-}
-.pilar-card:hover .icono {
-  color: #007bff;
-}
-.pilar-img {
-  max-width: 100%;
-  height: 180px;
-  object-fit: contain;
-  margin-bottom: 1rem;
-}
-.pilar-card h3 {
-  font-size: 1.4rem;
-  font-weight: 600;
-  color: #0e3b5c;
-}
-
-.pilar-card p {
-  color: #0e3b5c;
-}
-
-.pilar-card .destacado {
-  font-style: Arial;
-  font-weight: bold;
-  color: #0e3b5c;
-  margin-top: 15px;
-}
-
 .custom-footer {
   background-color: #64bafb;
   color: black;
@@ -212,30 +215,22 @@ button:hover {
     font-size: 0.8rem;
   }
 }
- .banner { padding: 1.5rem 1rem; text-align: center; }
- .banner h2 { font-size: 1.5rem; }
- .banner p { font-size: 0.9rem; }
- .card { margin-bottom: 1rem; }
- .custom-footer p,
- .custom-footer small { font-size: 0.8rem; }
+/* En móviles, apilar contenido verticalmente */
+@media (max-width: 768px) {
+  .valores-section .row {
+    flex-direction: column;
+    text-align: center;
+  }
 
+  .valores-section .col-md-6 {
+    width: 100%;
+  }
 
- .pilar-card {
-  background-color: #e9f5ff;
-  border-radius: 12px;
-  max-width: 900px; /* Aumenta el ancho */
-  margin: auto;
-  padding: 2rem 3rem; /* Más espacio interior */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* Un toque de sombra */
+  .valores-img {
+    margin-top: 1.5rem;
+    margin-left: 0; /* Para que no quede alineada a la derecha en móvil */
+  }
 }
-
-    .icono {
-      color: #007bff;
-    }
-    .destacado {
-      font-weight: bold;
-      font-style: italic;
-    }
     .carousel-indicators [data-bs-target] {
       background-color: #007bff;
     }
