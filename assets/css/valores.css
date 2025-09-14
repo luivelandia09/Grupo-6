@@ -7,7 +7,6 @@ body {
     line-height: 1.6; 
 
 }
-
 .banner {
   background-color: #093658; /* Fondo azul del banner */
   color: white; /* Color del texto */
@@ -32,7 +31,7 @@ header {
   transform: scale(1.05);
   transition: transform 0.3s ease;
 }
-button {
+  button {
   background: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);
   color: white;
   border: none;
@@ -202,24 +201,6 @@ button:hover {
     font-size: 0.8rem;
   }
 }
-  .banner {
-    padding: 1.5rem 1rem;
-    text-align: center;
-  }
-  .banner h2 {
-    font-size: 1.5rem;
-  }
-  .banner p {
-    font-size: 0.9rem;
-  }
-  .card {
-    margin-bottom: 1rem;
-  }
-  .custom-footer p,
-  .custom-footer small {
-    font-size: 0.8rem;
-  }
-}
  .banner { padding: 1.5rem 1rem; text-align: center; }
  .banner h2 { font-size: 1.5rem; }
  .banner p { font-size: 0.9rem; }
@@ -247,3 +228,52 @@ button:hover {
     .carousel-indicators [data-bs-target] {
       background-color: #007bff;
     }
+
+    /* ==== FORMULARIO + IMAGEN (PROMO) ==== */
+.valores-section .row.align-items-center {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* espacio entre columnas */
+}
+
+.valores-section form {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* Imagen promo */
+.valores-section img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Para pantallas grandes: 50/50 */
+@media (min-width: 992px) {
+  .valores-section .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+/* Para pantallas medianas: formulario más grande */
+@media (max-width: 991px) {
+  .valores-section .col-md-6:first-child {
+    flex: 0 0 60%;
+    max-width: 60%;
+  }
+  .valores-section .col-md-6:last-child {
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+}
+
+/* Para móviles: apilar uno debajo del otro */
+@media (max-width: 767px) {
+  .valores-section .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
