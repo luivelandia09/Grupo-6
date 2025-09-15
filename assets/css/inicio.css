@@ -18,12 +18,19 @@ body {
 }
 
 .navbar {
-  background-color: #4b0082;
+  background-color: #0d6efd;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 20px;
+}
+.custom-header {
+  height: 120px; /* Igual que la altura del logo */
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #0d6efd;
 }
 
 .logo {
@@ -61,7 +68,7 @@ body {
 }
 
 .search-bar button:hover {
-  background: #140352;
+  background: #0a22ad;
 }
 .search-bar:focus-within {
   width: 300px;
@@ -157,10 +164,7 @@ body {
   background-color: #64bafb;
   color: black;
 }
-.navbar {
-  background-image: #004aad;
-  color: #fff;
-}
+
 .navbar-nav {
   display: flex;
   flex-direction: column;
