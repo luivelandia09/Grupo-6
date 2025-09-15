@@ -8,7 +8,7 @@ body {
 
 }
 .banner {
-  background-color: #093658; /* Fondo azul del banner */
+  background-color: #0d6efd; /* Fondo azul del banner */
   color: white; /* Color del texto */
   padding: 20px; /* Espaciado */
   box-shadow: 0 12px 10px rgba(0, 0, 0, 0.2); /* Sombra */
@@ -25,7 +25,8 @@ body {
   width: auto;
 }
 header {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
 }
 .card:hover {
   transform: scale(1.05);
@@ -66,10 +67,12 @@ button:hover {
 }
 /* Imagen alineada a la derecha */
 .valores-img {
+  margin-top: 20px;
   max-width: 100%;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   margin-left: auto; /* Para alinearla a la derecha */
+  display: block;
 }
 /* ---------------------------------------------------- */
 /* --- Estilos de las tarjetas (pilar-card) --- */
@@ -142,15 +145,16 @@ button:hover {
 }
 
 .navbar {
-  background-image: linear-gradient(
-    to right,
-    rgb(58, 148, 232),
-    rgb(34, 196, 236)
-  );
-  color: #fff;
+  background-color: #0d6efd;
+  color: white;
+  border-bottom: none;
 }
 .custom-header {
-  background-color: #004aad;
+  height: 120px; /* Igual que la altura del logo */
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #0d6efd;
 }
 /* ==== MEDIA QUERIES PARA RESPONSIVIDAD ==== */
 /* Pantallas grandes (desktops) */
