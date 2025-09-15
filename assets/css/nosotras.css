@@ -1,3 +1,4 @@
+/* Imágenes de las tarjetas con tamaño uniforme */
 /* ==== ESTILOS GENERALES ==== */
 body {
   background-color: #b5d0eb;
@@ -112,7 +113,7 @@ h2:hover {
 }
 .card-img-top {
   width: 100%;
-  height: auto;
+  height: 250px;
   object-fit: cover;
 }
 .shiny-text {
