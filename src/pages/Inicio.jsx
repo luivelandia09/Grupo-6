@@ -1,20 +1,9 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Farmaven</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+import React from 'react'
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/inicio.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    </head>
-   <body>
-<header class="bg-primary text-white py-3">
+export default Inicio() {
+  return (
+    <div>
+    <header class="bg-primary text-white py-3">
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
   <a class="navbar-brand" href="../../index.html">
@@ -28,8 +17,6 @@
           <li class="nav-item"><a class="nav-link active" href="index.html">INICIO</a></li>
           <li class="nav-item"><a class="nav-link active" href="assets/html/nosotras.html">SOBRE NOSOTRAS</a></li>
           <li class="nav-item"><a class="nav-link active" href="assets/html/valores.html">VALORES</a></li>
-          <li class="nav-item"><a class="nav-link active" href="src/pages/Catálogo.jsx">CATÁLOGO</a></li>
-          <li class="nav-item"><a class="nav-link active" href="src/pages/Testimonios.jsx">TESTIMONIOS</a></li>
         </ul>
       </div>
       </div>
@@ -207,9 +194,10 @@
       <div class="col-md-3 mb-4">
         <h5 class="fw-bold">FARMAVEN</h5>
         <ul class="list-unstyled">
-          <li><a href="src/pages/Catálogo.jsx" class="text-dark text-decoration-none">Catálogo del mes</a></li>
-          <li><a href="src/pages/Testimonios.jsx" class="text-dark text-decoration-none">Testimonios</a></li>
-          <li><a href="#" class="text-dark text-decoration-none">Libro de reclamaciones</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Catálogo del mes</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Efectos secundarios</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Productos equivalentes</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Preguntas frecuentes</a></li>
         </ul>
       </div>
 
@@ -253,7 +241,6 @@
 
 <!-- Librería SweetAlert -->
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-</body>
-</html>
+    </div>
+  )
+}
