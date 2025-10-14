@@ -144,7 +144,7 @@ button:hover {
 }
 
 .navbar {
-  background-color: #0d6efd;
+  background-color: #64bafb;
   color: white;
   border-bottom: none;
 }
@@ -153,7 +153,7 @@ button:hover {
   display: flex;
   align-items: center;
   padding: 0 20px;
-  background-color: #0d6efd;
+  background-color: #64bafb;
 }
 /* ==== MEDIA QUERIES PARA RESPONSIVIDAD ==== */
 /* Pantallas grandes (desktops) */
