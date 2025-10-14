@@ -1,0 +1,239 @@
+/* ==== ESTILOS GENERALES ==== */
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #495057;
+  background-color: #f8f9fa;
+  line-height: 1.6;
+}
+.banner {
+  background-color: #0c63a5; /* Fondo azul del banner */
+  color: white; /* Color del texto */
+  padding: 20px; /* Espaciado */
+  box-shadow: 0 12px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+  width: 100%; /* Ocupa todo el ancho */
+  text-align: center;
+  margin: 10px;
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-brand img {
+  height: 120px; /* O el tamaño que prefieras */
+  width: auto;
+}
+header {
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+}
+h .card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+button {
+  background: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #00f2fe 0%, #4facfe 100%);
+}
+
+/* Revisa y ajusta los estilos de tu h1 */
+.valores-section h1.display-4 {
+  font-weight: 700;
+  color: #003b73;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.valores-section {
+  padding: 60px 0;
+  background: linear-gradient(135deg, #e6f2ff, #ffffff);
+}
+.valores-section p.lead {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto 30px;
+  color: #6c757d; /* Color más suave para el párrafo */
+}
+/* Imagen alineada a la derecha */
+.valores-img {
+  margin-top: 20px;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-left: auto; /* Para alinearla a la derecha */
+  display: block;
+}
+/* ---------------------------------------------------- */
+/* --- Estilos de las tarjetas (pilar-card) --- */
+/* ---------------------------------------------------- */
+.pilar-card {
+  background-color: #e9f5ff;
+  border-radius: 12px;
+  max-width: 900px; /* Aumenta el ancho */
+  margin: auto;
+  padding: 2rem 3rem; /* Más espacio interior */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* Un toque de sombra */
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+.pilar-card:hover {
+  border-color: #0056b3;
+}
+.pilar-card h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #0e3b5c;
+}
+.pilar-card p {
+  color: #0e3b5c;
+}
+.pilar-img {
+  max-width: 100%;
+  height: 180px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+.icono {
+  font-size: 3.5rem;
+  color: #0056b3;
+  transition: color 0.3s ease;
+}
+.pilar-card:hover .icono {
+  color: #007bff;
+}
+.destacado {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  color: #0e3b5c;
+  margin-top: 15px;
+}
+.section-title {
+  background-color: #0056b3; /* Azul oscuro para un look elegante */
+  color: white; /* Letras blancas para un alto contraste */
+  padding: 15px 30px; /* Más espacio para que el título resalte */
+  font-weight: bold; /* Texto más grueso para mayor énfasis */
+  font-size: 1.5rem; /* Tamaño de fuente un poco más grande */
+  box-shadow: 0 4px 15px rgba(0, 86, 179, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+.custom-footer {
+  background-color: #64bafb;
+  color: black;
+}
+
+.logo-footer {
+  height: 100px;
+  width: 200px;
+}
+
+.productos-title {
+  color: white;
+  font-size: 1.8em;
+}
+
+.navbar {
+  background-color: #0d6efd;
+  color: white;
+  border-bottom: none;
+}
+.custom-header {
+  height: 120px; /* Igual que la altura del logo */
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #0d6efd;
+}
+/* ==== MEDIA QUERIES PARA RESPONSIVIDAD ==== */
+/* Pantallas grandes (desktops) */
+@media (min-width: 1200px) {
+  .banner h2 {
+    font-size: 3rem;
+  }
+  .banner p {
+    font-size: 1.25rem;
+  }
+  .card-title {
+    font-size: 1.25rem;
+  }
+}
+
+/* Pantallas medianas (tablets en horizontal y laptops pequeñas) */
+@media (max-width: 1199px) and (min-width: 768px) {
+  .banner h2 {
+    font-size: 2.5rem;
+  }
+  .banner p {
+    font-size: 1.1rem;
+  }
+  .card-title {
+    font-size: 1.1rem;
+  }
+}
+
+/* Pantallas pequeñas (tablets verticales y móviles grandes) */
+@media (max-width: 767px) and (min-width: 576px) {
+  .banner {
+    padding: 2rem 1rem;
+  }
+  .banner h2 {
+    font-size: 2rem;
+  }
+  .banner p {
+    font-size: 1rem;
+  }
+  .card {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Móviles muy pequeños */
+@media (max-width: 575px) {
+  .banner {
+    padding: 1.5rem 1rem;
+    text-align: center;
+  }
+  .banner h2 {
+    font-size: 1.5rem;
+  }
+  .banner p {
+    font-size: 0.9rem;
+  }
+  .card {
+    margin-bottom: 1rem;
+  }
+  .custom-footer p,
+  .custom-footer small {
+    font-size: 0.8rem;
+  }
+}
+/* En móviles, apilar contenido verticalmente */
+@media (max-width: 768px) {
+  .valores-section .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .valores-section .col-md-6 {
+    width: 100%;
+  }
+
+  .valores-img {
+    margin-top: 1.5rem;
+    margin-left: 0; /* Para que no quede alineada a la derecha en móvil */
+  }
+}
+.carousel-indicators [data-bs-target] {
+  background-color: #007bff;
+}
