@@ -9,6 +9,9 @@ import azitromicina from "../assets/img/AZITROMICIDA.png";
 import prom1 from "../assets/img/prom1.jpg";
 import prom2 from "../assets/img/prom2.jpg";
 import prom3 from "../assets/img/prom3.jpg";
+import cliente1 from "../assets/img/cliente1.jpg";
+import cliente2 from "../assets/img/cliente2.jpg";
+import cliente3 from "../assets/img/cliente3.jpg";
 
 export default function Inicio() {
   return (
