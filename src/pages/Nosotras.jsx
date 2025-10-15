@@ -1,3 +1,5 @@
+import '../assets/css/nosotras.css';
+
 export default function Nosotras() {
   return (
     <div>
