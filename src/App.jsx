@@ -5,12 +5,9 @@ import Nosotras from "./pages/Nosotras";
 import Valores from "./pages/Valores";
 import Catalogo from "./pages/Catalogo";
 import Testimonios from "./pages/Testimonios";
-import "./assets/css/style.css";
-import "./assets/css/inicio.css";
-import "./assets/css/valores.css";
-import "./assets/css/nosotras.css";
+import "./index.css";
 
-export default function App() {
+function App() {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-800">
       <Navbar />
@@ -26,3 +23,5 @@ export default function App() {
     </div>
   );
 }
+
+export default App;

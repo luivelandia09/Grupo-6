@@ -4,7 +4,7 @@ const productosData = [
   {
     id: 1,
     nombre: "Paracetamol 500mg",
-    precio: S/ 10.00,
+    precio: 10.00,
     desc: "Alivio rápido para dolores y fiebre.",
     img: "https://via.placeholder.com/200x200?text=Paracetamol",
     categoria: "Analgésicos",
@@ -12,7 +12,7 @@ const productosData = [
   {
     id: 2,
     nombre: "Ibuprofeno 400mg",
-    precio: S/ 12.00,
+    precio:  12.00,
     desc: "Antiinflamatorio y analgésico.",
     img: "https://via.placeholder.com/200x200?text=Ibuprofeno",
     categoria: "Antiinflamatorios",
@@ -20,7 +20,7 @@ const productosData = [
   {
     id: 3,
     nombre: "Vitamina C 1g",
-    precio: 2.9,
+    precio: 3.00,
     desc: "Refuerza el sistema inmunológico.",
     img: "https://via.placeholder.com/200x200?text=Vitamina+C",
     categoria: "Vitaminas",
@@ -28,7 +28,7 @@ const productosData = [
   {
     id: 4,
     nombre: "Jarabe para la tos",
-    precio: 6.8,
+    precio: 7.00,
     desc: "Alivia la congestión y suaviza la garganta.",
     img: "https://via.placeholder.com/200x200?text=Jarabe",
     categoria: "Jarabes",
@@ -36,7 +36,7 @@ const productosData = [
   {
     id: 5,
     nombre: "Aspirina 100mg",
-    precio: 3.0,
+    precio: 3.00,
     desc: "Previene coágulos sanguíneos.",
     img: "https://via.placeholder.com/200x200?text=Aspirina",
     categoria: "Analgésicos",
@@ -44,7 +44,7 @@ const productosData = [
   {
     id: 6,
     nombre: "Omeprazol 20mg",
-    precio: 5.5,
+    precio: 6.00,
     desc: "Reduce la producción de ácido estomacal.",
     img: "https://via.placeholder.com/200x200?text=Omeprazol",
     categoria: "Gastrointestinales",
@@ -52,7 +52,7 @@ const productosData = [
   {
     id: 7,
     nombre: "Vitamina D3 2000UI",
-    precio: 4.8,
+    precio: 4.00,
     desc: "Fortalece huesos y sistema inmune.",
     img: "https://via.placeholder.com/200x200?text=Vitamina+D",
     categoria: "Vitaminas",
@@ -60,7 +60,7 @@ const productosData = [
   {
     id: 8,
     nombre: "Loratadina 10mg",
-    precio: 3.2,
+    precio: 6.00,
     desc: "Antihistamínico para alergias.",
     img: "https://via.placeholder.com/200x200?text=Loratadina",
     categoria: "Antihistamínicos",
@@ -68,7 +68,7 @@ const productosData = [
     {
     id: 9,
     nombre: "Amoxicilina 500mg",
-    precio: S/ 22.00,
+    precio: 22.00,
     desc: "Antibiótico eficaz contra diversas infecciones bacterianas.",
     img: "https://via.placeholder.com/200x200?text=Amoxicilina",
     categoria: "Antibióticos",
@@ -76,23 +76,23 @@ const productosData = [
   {
     id: 10,
     nombre: "Azitromicina 200mg",
-    precio: S/ 32.00,
+    precio: 32.00,
     desc: "Tratamiento para infecciones respiratorias y más.",
     img: "https://via.placeholder.com/200x200?text=Azitromicina",
     categoria: "Antibióticos",
   },
   {
     id: 11,
-    nombre: "Dicoflenaco 100mg",
-    precio: S/ 15.00,
+    nombre: "Diclofenaco 100mg",
+    precio: 15.00,
     desc: "Reduce inflamación y alivia dolores musculares.",
     img: "https://via.placeholder.com/200x200?text=Dicoflenaco",
     categoria: "Antiinflamatorio",
   },
   {
     id: 12,
-    nombre: "Multivitminico 100mg",
-    precio: S/ 15.00,
+    nombre: "Multivitaminico 100mg",
+    precio: 15.00,
     desc: "Más energía y bienestar para tu día a día.",
     img: "https://via.placeholder.com/200x200?text=Multivitaminico",
     categoria: "Vitaminas",
