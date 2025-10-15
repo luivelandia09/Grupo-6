@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
+  "name": "proyecto-u3",
+=======
   "name": "farmaven",
+>>>>>>> 85a4d76977a7739edf258aca39625a02a6a0488b
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,7 +18,10 @@
     "bootstrap": "^5.3.8",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+<<<<<<< HEAD
+=======
     "react-router-dom": "^7.9.4",
+>>>>>>> 85a4d76977a7739edf258aca39625a02a6a0488b
     "tailwindcss": "^4.1.14"
   },
   "devDependencies": {
