@@ -4,15 +4,15 @@ const productosData = [
   {
     id: 1,
     nombre: "Paracetamol 500mg",
-    precio: 3.5,
-    desc: "Analgésico y antipirético de uso común.",
+    precio: S/ 10.00,
+    desc: "Alivio rápido para dolores y fiebre.",
     img: "https://via.placeholder.com/200x200?text=Paracetamol",
     categoria: "Analgésicos",
   },
   {
     id: 2,
     nombre: "Ibuprofeno 400mg",
-    precio: 4.2,
+    precio: S/ 12.00,
     desc: "Antiinflamatorio y analgésico.",
     img: "https://via.placeholder.com/200x200?text=Ibuprofeno",
     categoria: "Antiinflamatorios",
@@ -65,6 +65,39 @@ const productosData = [
     img: "https://via.placeholder.com/200x200?text=Loratadina",
     categoria: "Antihistamínicos",
   },
+    {
+    id: 9,
+    nombre: "Amoxicilina 500mg",
+    precio: S/ 22.00,
+    desc: "Antibiótico eficaz contra diversas infecciones bacterianas.",
+    img: "https://via.placeholder.com/200x200?text=Amoxicilina",
+    categoria: "Antibióticos",
+  },
+  {
+    id: 10,
+    nombre: "Azitromicina 200mg",
+    precio: S/ 32.00,
+    desc: "Tratamiento para infecciones respiratorias y más.",
+    img: "https://via.placeholder.com/200x200?text=Azitromicina",
+    categoria: "Antibióticos",
+  },
+  {
+    id: 11,
+    nombre: "Dicoflenaco 100mg",
+    precio: S/ 15.00,
+    desc: "Reduce inflamación y alivia dolores musculares.",
+    img: "https://via.placeholder.com/200x200?text=Dicoflenaco",
+    categoria: "Antiinflamatorio",
+  },
+  {
+    id: 12,
+    nombre: "Multivitminico 100mg",
+    precio: S/ 15.00,
+    desc: "Más energía y bienestar para tu día a día.",
+    img: "https://via.placeholder.com/200x200?text=Multivitaminico",
+    categoria: "Vitaminas",
+  },
+  
 ];
 
 export default function Catalogo() {
