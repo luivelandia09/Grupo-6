@@ -1,48 +1,22 @@
-<<<<<<< HEAD
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>proyecto-u3</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
-=======
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Farmaven</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+import React from 'react'
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/inicio.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    </head>
-   <body>
-<header class="custom-header text-white py-3">
+export default Inicio() {
+  return (
+    <div>
+    <header class="bg-primary text-white py-3">
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
-  <a class="navbar-brand" href="../../index.html" title="Inicio">
+  <a class="navbar-brand" href="../../index.html">
   <img src="assets/img/logo.png" alt="Logo FARMAVEN" height="100" width="200">
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" title="Abrir menú de navegación">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link active" href="index.html">INICIO</a></li>
-          <li class="nav-item"><a class="nav-link active" href="src/assets/html/nosotras.html">SOBRE NOSOTRAS</a></li>
-          <li class="nav-item"><a class="nav-link active" href="src/assets/html/valores.html">VALORES</a></li>
-          <li class="nav-item"><a class="nav-link active" href="/catalogo">CATÁLOGO</a></li>
-          <li class="nav-item"><a class="nav-link active" href="src/pages/Testimonios.jsx">TESTIMONIOS</a></li>
+          <li class="nav-item"><a class="nav-link active" href="assets/html/nosotras.html">SOBRE NOSOTRAS</a></li>
+          <li class="nav-item"><a class="nav-link active" href="assets/html/valores.html">VALORES</a></li>
         </ul>
       </div>
       </div>
@@ -79,7 +53,7 @@
 
 <section class="py-5">
     <div class="container">
-        <h2 class="text-center"> Nuestros Productos</h2>
+        <h2 style="text-align: center;"> Nuestros Productos</h2>
         <p class="descripcion-productos text-center mb-4"> 🌟"Descubre nuestros productos más populares, 
           diseñados para ofrecerte alivio y tranquilidad. Nos aseguramos de que cada producto que ofrecemos
            cumpla con los más altos estándares de calidad, 
@@ -179,7 +153,7 @@
             <p class="precio">
               <span class="text-decoration-line-through text-muted">S/ 40.00</span> S/ 28.00
             </p>
-            <a href="" class="btn btn-primary">Comprar</a>
+            <a href="#" class="btn btn-primary">Comprar</a>
           </div>
         </div>
       </div>
@@ -220,9 +194,10 @@
       <div class="col-md-3 mb-4">
         <h5 class="fw-bold">FARMAVEN</h5>
         <ul class="list-unstyled">
-          <li><a href="src/pages/Catálogo.jsx" class="text-dark text-decoration-none">Catálogo del mes</a></li>
-          <li><a href="src/pages/Testimonios.jsx" class="text-dark text-decoration-none">Testimonios</a></li>
-          <li><a href="#" class="text-dark text-decoration-none">Libro de reclamaciones</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Catálogo del mes</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Efectos secundarios</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Productos equivalentes</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Preguntas frecuentes</a></li>
         </ul>
       </div>
 
@@ -243,13 +218,13 @@
         <p class="small">Recibe notificaciones de sorteos y promociones exclusivas 🎁</p>
         <form class="d-flex mb-3">
           <input type="email" class="form-control form-control-sm me-2" placeholder="Tu correo">
-          <button class="btn btn-primary btn-sm" type="button">Enviar</button>
+          <button class="btn btn-primary btn-sm">Enviar</button>
         </form>
         <h6 class="fw-bold">Síguenos</h6>
         <div>
-          <a href="#" class="text-dark me-3" title="Facebook"><i class="fab fa-facebook fa-lg"></i></a>
-          <a href="#" class="text-dark me-3" title="Instagram"><i class="fab fa-instagram fa-lg"></i></a>
-          <a href="#" class="text-dark" title="TikTok"><i class="fab fa-tiktok fa-lg"></i></a>
+          <a href="#" class="text-dark me-3"><i class="fab fa-facebook fa-lg"></i></a>
+          <a href="#" class="text-dark me-3"><i class="fab fa-instagram fa-lg"></i></a>
+          <a href="#" class="text-dark"><i class="fab fa-tiktok fa-lg"></i></a>
         </div>
       </div>
 
@@ -262,12 +237,10 @@
   </div>
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 <!-- Librería SweetAlert -->
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-</body>
->>>>>>> 85a4d76977a7739edf258aca39625a02a6a0488b
-</html>
+    </div>
+  )
+}

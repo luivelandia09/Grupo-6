@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -66,3 +67,8 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+=======
+/* Actualización de directivas de Tailwind para la versión 4 */
+@import "tailwindcss/preflight";
+@tailwind utilities;
+>>>>>>> 85a4d76977a7739edf258aca39625a02a6a0488b
