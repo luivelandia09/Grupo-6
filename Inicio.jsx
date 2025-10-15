@@ -201,6 +201,53 @@ export default function Inicio() {
           </div>
         </div>
       </section>
+      </section>
+
+{/* 🔥 Promoción animada e impactante */}
+<section
+  id="promo-impactante"
+  className="py-16 bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 text-white text-center position-relative overflow-hidden"
+>
+  <div className="container position-relative z-10">
+    <h2 className="display-5 fw-bold mb-4 animate__animated animate__pulse">
+      💥 ¡SUPER PROMOCIÓN FARMAVEN! 💥
+    </h2>
+    <p className="lead mb-5">
+      ¡Compra tus productos favoritos con <strong>hasta 50% de descuento</strong> y recibe regalos exclusivos! 🎁
+    </p>
+
+    <div className="d-flex justify-content-center gap-4 flex-wrap">
+      <div className="card border-0 shadow-lg p-4 bg-white text-dark rounded-4 promo-card animate__animated animate__fadeInUp">
+        <h5 className="fw-bold mb-2">🧴 Gel antibacterial</h5>
+        <p>3x2 en todas las presentaciones.</p>
+      </div>
+
+      <div className="card border-0 shadow-lg p-4 bg-white text-dark rounded-4 promo-card animate__animated animate__fadeInUp">
+        <h5 className="fw-bold mb-2">😷 Mascarillas</h5>
+        <p>Hasta 40% de descuento por packs grandes.</p>
+      </div>
+
+      <div className="card border-0 shadow-lg p-4 bg-white text-dark rounded-4 promo-card animate__animated animate__fadeInUp">
+        <h5 className="fw-bold mb-2">💊 Multivitamínicos</h5>
+        <p>Llévate el segundo con 50% OFF.</p>
+      </div>
+    </div>
+
+    <button className="btn btn-warning btn-lg mt-5 fw-bold shadow-lg animate__animated animate__bounce animate__infinite">
+      🛒 ¡Aprovecha ahora!
+    </button>
+  </div>
+
+  {/* Fondo animado */}
+  <div className="position-absolute top-0 start-0 w-100 h-100" style={{
+    background: "radial-gradient(circle at 50% 50%, rgba(255,255,255,0.2), transparent 70%)",
+    animation: "pulse 3s infinite alternate",
+  }}></div>
+</section>
+
+{/* Testimonios */}
+<section className="py-5 bg-light testimonios">
+
       {/* Testimonios */}
       <section className="py-5 bg-light testimonios">
         <div className="container">
