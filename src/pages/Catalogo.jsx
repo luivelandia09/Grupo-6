@@ -97,7 +97,47 @@ const productosData = [
     img: "https://via.placeholder.com/200x200?text=Multivitaminico",
     categoria: "Vitaminas",
   },
-  
+   {
+    id: 13,
+    nombre: "Crema antibiótica",
+    precio: 8.50,
+    desc: "Ideal para heridas leves y quemaduras.",
+    img: "images/crema-antibiotica.png",
+    categoria: "Antibióticos",
+  },
+  {
+    id: 14,
+    nombre: "Suero oral 500ml",
+    precio: 5.00,
+    desc: "Hidratación efectiva para cuadros de deshidratación.",
+    img: "images/suero-oral.png",
+    categoria: "Soluciones",
+  },
+  {
+    id: 15,
+    nombre: "Alcohol 70%",
+    precio: 4.00,
+    desc: "Desinfectante de uso externo para limpieza de heridas.",
+    img: "images/alcohol70.png",
+    categoria: "Desinfectantes",
+  },
+  {
+    id: 16,
+    nombre: "Mascarillas quirúrgicas (10u)",
+    precio: 6.00,
+    desc: "Protección diaria contra agentes externos.",
+    img: "images/mascarillas.png",
+    categoria: "Protección",
+  },
+  {
+    id: 17,
+    nombre: "Gel antibacterial 250ml",
+    precio: 5.50,
+    desc: "Elimina el 99.9% de bacterias sin necesidad de agua.",
+    img: "images/gel-antibacterial.png",
+    categoria: "Desinfectantes",
+  },
+ 
 ];
 
 export default function Catalogo() {
